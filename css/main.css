@@ -1,0 +1,352 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: "DM Sans", sans-serif;
+    font-weight: 400;
+    background-color: rgb(242, 233, 192);
+    color: rgba(160, 128, 77, 1);
+}
+a {
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+}
+.container {
+    width: auto;
+    margin: 0 auto;
+}
+header {
+    padding: 30px 0;
+    background-color: rgb(216, 191, 146);
+}
+
+header .logo {
+    font-size: 36px;
+    font-weight: 1000;
+    margin-left: 100px;
+}
+header .logo a{
+    color:rgba(160, 128, 77, 1);
+}
+header nav {
+    float: right;
+    width: 50%;
+    margin-right: 100px;
+}
+
+header nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+header nav ul li {
+    display: inline-block;
+    font-size: 36px;
+    font-weight: 600;
+}
+header nav ul li a{
+    color:rgba(160, 128, 77, 1);
+    display: block;
+    transition: all 300ms ease;
+}
+header nav ul li a:hover{
+    transform: scale(1.1);
+
+}
+.hero {
+    padding-bottom: 100px;
+    background: url(https://iy.kommersant.ru/Issues.photo/TEMA2/2021/010/KMO_177956_00201_1_t241_144116.webp);
+    background-position: center;
+    background-size: 100%;
+    position: relative;
+    display: flex;
+}
+.overlay {
+    width: 100%;
+    height: 100%;
+    background: black;
+    position: absolute;
+    opacity: 0.15;
+}
+.hero--info {
+    width: 900px;
+    padding-top: 70px;
+    font-size: 96px;
+    font-weight: 600;
+    color: rgba(255, 249, 228, 1);
+    margin-left: 100px;
+    z-index: 1;
+}
+.plus{
+    padding: 50px;
+}
+h1{
+    font-size: 64px;
+    margin: 0 auto;
+    text-align: center;
+}
+.slider-container {
+    position: relative;
+    width: 920px;
+    height: 460px;
+    margin: 0 auto;
+    overflow: hidden;
+    padding-top: 20px ;
+
+  }
+  
+  .slider {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+  }
+  
+  .slider img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .prev-button, .next-button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 50px;
+    height: 50px;
+    background-color: transparent;
+    border: none;
+    font-size: 24px;
+    color: rgba(255, 249, 228, 1);
+  }
+  .prev-button {
+    left: 10px;
+  }
+  .next-button {
+    right: 10px;
+  }
+  h2{
+    font-size: 64px;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 30px;
+}
+.quality {
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+}
+.qwe {
+    text-align: center;
+    margin: 20px;
+    width: 300px;
+    border: 5px solid rgb(216, 191, 146);
+    border-radius: 50px;
+}
+.quality p.nmb {
+    font-size: 50px;
+    font-weight: 1000;
+}
+.quality p{
+    font-size: 20px;
+    font-weight: 300;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+.button{
+    text-align: center;
+    font-size: 55px;
+    font-weight: 1000;
+    padding: 100px;
+    max-width: 700px;
+}
+.button a.tour{
+    color: rgb(216, 191, 146);
+    background: rgba(160, 128, 77, 1);
+    border-radius: 100px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    display: block;
+    transition: all 200ms ease;
+}
+.button a.tour:hover{
+    transform: scale(1.1);
+}
+footer{
+    background-color: rgb(216, 191, 146);
+    margin-top: 50px;
+}
+.fut{
+    display: flex;
+    justify-content: center;
+}
+h3{
+    text-align: center;
+    font-size: 25px;
+    font-weight: 1000;
+}
+.foot{
+    text-align: center;
+    margin: 20px;
+    width: 300px;
+    border-radius: 50px;
+    font-size: 20px;
+    font-weight: 300;
+}
+.foot p.zxc{
+    font-size: 25px;
+    font-weight: 1000;
+}
+.foot p a{
+    color: rgba(160, 128, 77, 1); 
+    display: block;
+    transition: all 200ms ease;
+}
+.foot p a:hover{
+    transform: scale(1.05);
+}
+.first{
+    height: 300px;
+    margin: 50px 0;
+}
+.first img{
+    height: 300px;
+    border-radius: 50px;
+    float: left;
+    display: block;
+    margin-left: 200px;
+}
+.first div.place{
+    float: right;
+    width: 50%;
+    text-align: center;
+    display: block;
+    font-size: 20px;
+    margin-right: 200px;
+}
+.first div.place p.h{
+    font-size: 50px;
+    font-weight: 1000;
+}
+.first div.place p{
+    margin: 10px 30px;
+}
+.first div.place a{
+    color: rgb(216, 191, 146);
+    background: rgba(160, 128, 77, 1);
+    border-radius: 100px;
+    padding-top: 10px;
+    padding-bottom: 15px;
+    width: 150px;
+    display: block;
+    margin: auto;
+    transition: all 200ms ease;
+}
+.first div.place a:hover{
+    transform: scale(1.05);
+}
+.second{
+    height: 300px;
+    margin: 50px 0;
+}
+.second img{
+    height: 300px;
+    border-radius: 50px;
+    float: right;
+    display: block;
+    margin-right: 200px;
+}
+.second div.place{
+    float: left;
+    width: 50%;
+    text-align: center;
+    display: block;
+    font-size: 20px;
+    margin-left: 200px;
+}
+.second div.place p.h{
+    font-size: 50px;
+    font-weight: 1000;
+}
+.second div.place p{
+    margin: 10px 30px;
+}
+.second div.place a{
+    color: rgb(216, 191, 146);
+    background: rgba(160, 128, 77, 1);
+    border-radius: 100px;
+    padding-top: 10px;
+    padding-bottom: 15px;
+    width: 150px;
+    display: block;
+    margin: auto;
+    transition: all 200ms ease;
+}
+.second div.place a:hover{
+    transform: scale(1.05);
+}
+h4{
+    text-align: center;
+    font-size: 64px;
+    font-weight: 1000;
+}
+h5{
+    text-align: center;
+    font-size: 64px;
+    font-weight: 1000;
+}
+.contacts{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 300;
+}
+.mass img{
+    width: 100px;
+    margin: 10px 50px;
+    height: 100px;
+}
+.mass{
+    display: inline-block;
+    justify-content: space-between;
+    text-align: center;
+    width: 100%;
+}
+iframe{
+    display: block;
+    margin: 20px auto;
+    margin-bottom: 30px;
+    border-radius: 50px;
+}
+.mass a{
+    margin: auto;
+    transition: all 200ms ease;
+    display: inline-block;
+}
+.mass a:hover{
+    transform: scale(1.05);
+}
+.first div.place1{
+    float: right;
+    width: 50%;
+    text-align: center;
+    display: block;
+    font-size: 30px;
+    margin-right: 200px;
+}
+.second div.place1{
+    float: right;
+    width: 50%;
+    text-align: center;
+    display: block;
+    font-size: 30px;
+    margin-right: 200px;
+}
+
+
